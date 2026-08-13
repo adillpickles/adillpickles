@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="240" viewBox="0 0 680 240" role="img" aria-labelledby="title desc">
+  <title id="title">Top languages based on representative projects and contributions</title>
+  <desc id="desc">TypeScript 39.54 percent, JavaScript 18.33 percent, Python 16.08 percent, Rust 14.03 percent, C++ 9.42 percent, and other languages 2.60 percent.</desc>
+
+  <rect width="680" height="240" rx="12" fill="#0d1117" />
+  <rect x="0.5" y="0.5" width="679" height="239" rx="11.5" fill="none" stroke="#30363d" />
+
+  <g transform="rotate(-90 136 120)" fill="none" stroke-width="24">
+    <circle cx="136" cy="120" r="70" stroke="#21262d" />
+    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#3178c6" stroke-dasharray="39.54 60.46" stroke-dashoffset="0" />
+    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#f1e05a" stroke-dasharray="18.33 81.67" stroke-dashoffset="-39.54" />
+    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#3572a5" stroke-dasharray="16.08 83.92" stroke-dashoffset="-57.87" />
+    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#dea584" stroke-dasharray="14.03 85.97" stroke-dashoffset="-73.95" />
+    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#f34b7d" stroke-dasharray="9.42 90.58" stroke-dashoffset="-87.98" />
+    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#8b949e" stroke-dasharray="2.60 97.40" stroke-dashoffset="-97.40" />
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" text-anchor="middle">
+    <text x="136" y="115" fill="#f0f6fc" font-size="18" font-weight="600">code</text>
+    <text x="136" y="137" fill="#8b949e" font-size="12">mix</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">
+    <rect x="272" y="39" width="11" height="11" rx="2" fill="#3178c6" />
+    <text x="296" y="49" fill="#f0f6fc">TypeScript</text>
+    <text x="628" y="49" fill="#8b949e" text-anchor="end">39.54%</text>
+
+    <rect x="272" y="71" width="11" height="11" rx="2" fill="#f1e05a" />
+    <text x="296" y="81" fill="#f0f6fc">JavaScript</text>
+    <text x="628" y="81" fill="#8b949e" text-anchor="end">18.33%</text>
+
+    <rect x="272" y="103" width="11" height="11" rx="2" fill="#3572a5" />
+    <text x="296" y="113" fill="#f0f6fc">Python</text>
+    <text x="628" y="113" fill="#8b949e" text-anchor="end">16.08%</text>
+
+    <rect x="272" y="135" width="11" height="11" rx="2" fill="#dea584" />
+    <text x="296" y="145" fill="#f0f6fc">Rust</text>
+    <text x="628" y="145" fill="#8b949e" text-anchor="end">14.03%</text>
+
+    <rect x="272" y="167" width="11" height="11" rx="2" fill="#f34b7d" />
+    <text x="296" y="177" fill="#f0f6fc">C++</text>
+    <text x="628" y="177" fill="#8b949e" text-anchor="end">9.42%</text>
+
+    <rect x="272" y="199" width="11" height="11" rx="2" fill="#8b949e" />
+    <text x="296" y="209" fill="#f0f6fc">Other</text>
+    <text x="628" y="209" fill="#8b949e" text-anchor="end">2.60%</text>
+  </g>
+</svg>
