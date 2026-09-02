@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="72" viewBox="0 0 760 72" role="img" aria-labelledby="title description">
+  <title id="title">GitHub activity, last 12 months</title>
+  <desc id="description">1,808 contributions, 52 pull requests, 24 reviews, 11 repositories</desc>
+  <style>
+    .card { fill: #f6f8fa; stroke: #d0d7de; }
+    .value {
+      fill: #1f2328;
+      font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .label {
+      fill: #57606a;
+      font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #161b22; stroke: #30363d; }
+      .value { fill: #f0f6fc; }
+      .label { fill: #8c959f; }
+    }
+  </style>
+  <g transform="translate(12 8)">
+    <rect class="card" width="172" height="56" rx="8" />
+    <text class="value" x="86" y="27" text-anchor="middle">1,808</text>
+    <text class="label" x="86" y="46" text-anchor="middle">contributions</text>
+  </g>
+  <g transform="translate(198 8)">
+    <rect class="card" width="172" height="56" rx="8" />
+    <text class="value" x="86" y="27" text-anchor="middle">52</text>
+    <text class="label" x="86" y="46" text-anchor="middle">pull requests</text>
+  </g>
+  <g transform="translate(384 8)">
+    <rect class="card" width="172" height="56" rx="8" />
+    <text class="value" x="86" y="27" text-anchor="middle">24</text>
+    <text class="label" x="86" y="46" text-anchor="middle">reviews</text>
+  </g>
+  <g transform="translate(570 8)">
+    <rect class="card" width="172" height="56" rx="8" />
+    <text class="value" x="86" y="27" text-anchor="middle">11</text>
+    <text class="label" x="86" y="46" text-anchor="middle">repositories</text>
+  </g>
+</svg>

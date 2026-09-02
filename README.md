@@ -73,10 +73,10 @@ I build stuff, mostly with TypeScript, Python, C++, and Rust.
   <img src="https://img.shields.io/badge/scikit--learn-24292F?style=flat-square&amp;logo=scikitlearn&amp;logoColor=F7931E" alt="scikit-learn" />
 </p>
 
-### Contribution Activity
+### GitHub Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-map-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-map-light.svg" />
-  <img src="./profile-3d-contrib/profile-map-light.svg" width="100%" alt="Adil's GitHub contribution activity in 3D" />
-</picture>
+<p align="center">
+  <img src="./assets/github-activity.svg" width="760" alt="GitHub activity summary for the last 12 months" />
+</p>
+
+<p align="center"><sub>Last 12 months</sub></p>

@@ -1,4 +1,4 @@
-name: Generate contribution graph
+name: Update profile activity
 
 on:
   schedule:
@@ -9,29 +9,26 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v5
 
-      - name: Generate 3D contribution graph
-        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+      - name: Generate activity summary
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: python .github/scripts/update_github_activity.py
 
-      - name: Keep the contribution map
-        run: python .github/scripts/extract_contribution_map.py
-
-      - name: Commit generated graph
+      - name: Commit updated activity
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add profile-3d-contrib/profile-map-light.svg profile-3d-contrib/profile-map-dark.svg
+          git add assets/github-activity.svg
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "Update contribution graph"
+          git commit -m "Update profile activity"
           git push
