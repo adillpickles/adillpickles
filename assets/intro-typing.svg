@@ -20,33 +20,33 @@
   </style>
 
   <defs>
-    <clipPath id="line-1"><rect x="212" y="10" width="0" height="52"><animate attributeName="width" values="0;336;336;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="0s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-2"><rect x="205" y="10" width="0" height="52"><animate attributeName="width" values="0;350;350;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="4s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-3"><rect x="205" y="10" width="0" height="52"><animate attributeName="width" values="0;350;350;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="8s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-4"><rect x="125" y="10" width="0" height="52"><animate attributeName="width" values="0;510;510;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="12s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-1"><rect x="226.06" y="10" width="0" height="52"><animate attributeName="width" values="0;307.88;307.88;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="0s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-2"><rect x="229.79" y="10" width="0" height="52"><animate attributeName="width" values="0;300.42;300.42;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="4s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-3"><rect x="221.11" y="10" width="0" height="52"><animate attributeName="width" values="0;317.78;317.78;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="8s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-4"><rect x="160.48" y="10" width="0" height="52"><animate attributeName="width" values="0;439.05;439.05;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="12s" repeatCount="indefinite" /></rect></clipPath>
   </defs>
 
-  <text class="intro" x="212" y="46" clip-path="url(#line-1)">Hi 👋, I'm Adil Ahmed</text>
-  <rect class="cursor" x="212" y="17" width="3" height="36" rx="1.5">
-    <animate attributeName="x" values="212;548;548;212;212" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="0s" repeatCount="indefinite" />
+  <text class="intro" x="380" y="46" text-anchor="middle" clip-path="url(#line-1)">Hi 👋, I'm Adil Ahmed</text>
+  <rect class="cursor" x="226.06" y="17" width="3" height="36" rx="1.5">
+    <animate attributeName="x" values="226.06;533.94;533.94;226.06;226.06" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="0s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="0s" repeatCount="indefinite" />
   </rect>
 
-  <text class="intro" x="205" y="46" clip-path="url(#line-2)">I build full-stack apps.</text>
-  <rect class="cursor" x="205" y="17" width="3" height="36" rx="1.5" opacity="0">
-    <animate attributeName="x" values="205;555;555;205;205" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="4s" repeatCount="indefinite" />
+  <text class="intro" x="380" y="46" text-anchor="middle" clip-path="url(#line-2)">I build full-stack apps.</text>
+  <rect class="cursor" x="229.79" y="17" width="3" height="36" rx="1.5" opacity="0">
+    <animate attributeName="x" values="229.79;530.21;530.21;229.79;229.79" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="4s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="4s" repeatCount="indefinite" />
   </rect>
 
-  <text class="intro" x="205" y="46" clip-path="url(#line-3)">I make developer tools.</text>
-  <rect class="cursor" x="205" y="17" width="3" height="36" rx="1.5" opacity="0">
-    <animate attributeName="x" values="205;555;555;205;205" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="8s" repeatCount="indefinite" />
+  <text class="intro" x="380" y="46" text-anchor="middle" clip-path="url(#line-3)">I make developer tools.</text>
+  <rect class="cursor" x="221.11" y="17" width="3" height="36" rx="1.5" opacity="0">
+    <animate attributeName="x" values="221.11;538.89;538.89;221.11;221.11" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="8s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="8s" repeatCount="indefinite" />
   </rect>
 
-  <text class="intro" x="125" y="46" clip-path="url(#line-4)">I like systems &amp; media software.</text>
-  <rect class="cursor" x="125" y="17" width="3" height="36" rx="1.5" opacity="0">
-    <animate attributeName="x" values="125;635;635;125;125" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="12s" repeatCount="indefinite" />
+  <text class="intro" x="380" y="46" text-anchor="middle" clip-path="url(#line-4)">I like systems &amp; media software.</text>
+  <rect class="cursor" x="160.48" y="17" width="3" height="36" rx="1.5" opacity="0">
+    <animate attributeName="x" values="160.48;599.52;599.52;160.48;160.48" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="12s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.08;0.20;0.24;1" dur="16s" begin="12s" repeatCount="indefinite" />
   </rect>
 </svg>
