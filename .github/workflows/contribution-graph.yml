@@ -22,11 +22,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Keep the contribution map
+        run: python .github/scripts/extract_contribution_map.py
+
       - name: Commit generated graph
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add profile-3d-contrib
+          git add profile-3d-contrib/profile-map-light.svg profile-3d-contrib/profile-map-dark.svg
           if git diff --cached --quiet; then
             exit 0
           fi

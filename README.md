@@ -76,7 +76,7 @@ I build stuff, mostly with TypeScript, Python, C++, and Rust.
 ### Contribution Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season.svg" />
-  <img src="./profile-3d-contrib/profile-season.svg" width="100%" alt="Adil's GitHub contribution activity in 3D" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-map-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-map-light.svg" />
+  <img src="./profile-3d-contrib/profile-map-light.svg" width="100%" alt="Adil's GitHub contribution activity in 3D" />
 </picture>
