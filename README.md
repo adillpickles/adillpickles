@@ -20,8 +20,6 @@ I build stuff, mostly with TypeScript, Python, C++, and Rust.
   <img src="./assets/language-distribution.svg" width="760" alt="Representative language distribution: TypeScript 39.54%, JavaScript 18.33%, Python 16.08%, Rust 14.03%, C++ 9.42%, and Other 2.60%" />
 </p>
 
-<p align="center"><sub>Based on representative projects and contributions</sub></p>
-
 ### Web & Product Engineering
 
 <p>
