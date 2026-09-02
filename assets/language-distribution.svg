@@ -1,48 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="240" viewBox="0 0 680 240" role="img" aria-labelledby="title desc">
-  <title id="title">Top languages based on representative projects and contributions</title>
-  <desc id="desc">TypeScript 39.54 percent, JavaScript 18.33 percent, Python 16.08 percent, Rust 14.03 percent, C++ 9.42 percent, and other languages 2.60 percent.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="204" viewBox="0 0 760 204" role="img" aria-labelledby="title description">
+  <title id="title">Top languages</title>
+  <desc id="description">A stacked bar showing TypeScript 39.54 percent, JavaScript 18.33 percent, Python 16.08 percent, Rust 14.03 percent, C++ 9.42 percent, and Other 2.60 percent.</desc>
 
-  <rect width="680" height="240" rx="12" fill="#0d1117" />
-  <rect x="0.5" y="0.5" width="679" height="239" rx="11.5" fill="none" stroke="#30363d" />
+  <style>
+    .label {
+      fill: #24292f;
+      font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
 
-  <g transform="rotate(-90 136 120)" fill="none" stroke-width="24">
-    <circle cx="136" cy="120" r="70" stroke="#21262d" />
-    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#3178c6" stroke-dasharray="39.54 60.46" stroke-dashoffset="0" />
-    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#f1e05a" stroke-dasharray="18.33 81.67" stroke-dashoffset="-39.54" />
-    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#3572a5" stroke-dasharray="16.08 83.92" stroke-dashoffset="-57.87" />
-    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#dea584" stroke-dasharray="14.03 85.97" stroke-dashoffset="-73.95" />
-    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#f34b7d" stroke-dasharray="9.42 90.58" stroke-dashoffset="-87.98" />
-    <circle cx="136" cy="120" r="70" pathLength="100" stroke="#8b949e" stroke-dasharray="2.60 97.40" stroke-dashoffset="-97.40" />
+    .value {
+      fill: #57606a;
+      font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    .track {
+      fill: #d8dee4;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .label { fill: #f0f6fc; }
+      .value { fill: #8c959f; }
+      .track { fill: #30363d; }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="bar-clip">
+      <rect x="24" y="24" width="712" height="22" rx="11" />
+    </clipPath>
+  </defs>
+
+  <rect class="track" x="24" y="24" width="712" height="22" rx="11" />
+  <g clip-path="url(#bar-clip)">
+    <rect x="24" y="24" width="281.52" height="22" fill="#3178c6" />
+    <rect x="305.52" y="24" width="130.51" height="22" fill="#f1e05a" />
+    <rect x="436.03" y="24" width="114.49" height="22" fill="#3572a5" />
+    <rect x="550.52" y="24" width="99.90" height="22" fill="#dea584" />
+    <rect x="650.42" y="24" width="67.07" height="22" fill="#f34b7d" />
+    <rect x="717.49" y="24" width="18.51" height="22" fill="#8b949e" />
   </g>
 
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" text-anchor="middle">
-    <text x="136" y="115" fill="#f0f6fc" font-size="18" font-weight="600">code</text>
-    <text x="136" y="137" fill="#8b949e" font-size="12">mix</text>
+  <g transform="translate(24 80)">
+    <rect width="12" height="12" rx="3" fill="#3178c6" />
+    <text class="label" x="22" y="11">TypeScript</text>
+    <text class="value" x="322" y="11" text-anchor="end">39.54%</text>
+  </g>
+  <g transform="translate(398 80)">
+    <rect width="12" height="12" rx="3" fill="#f1e05a" />
+    <text class="label" x="22" y="11">JavaScript</text>
+    <text class="value" x="338" y="11" text-anchor="end">18.33%</text>
   </g>
 
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">
-    <rect x="272" y="39" width="11" height="11" rx="2" fill="#3178c6" />
-    <text x="296" y="49" fill="#f0f6fc">TypeScript</text>
-    <text x="628" y="49" fill="#8b949e" text-anchor="end">39.54%</text>
+  <g transform="translate(24 124)">
+    <rect width="12" height="12" rx="3" fill="#3572a5" />
+    <text class="label" x="22" y="11">Python</text>
+    <text class="value" x="322" y="11" text-anchor="end">16.08%</text>
+  </g>
+  <g transform="translate(398 124)">
+    <rect width="12" height="12" rx="3" fill="#dea584" />
+    <text class="label" x="22" y="11">Rust</text>
+    <text class="value" x="338" y="11" text-anchor="end">14.03%</text>
+  </g>
 
-    <rect x="272" y="71" width="11" height="11" rx="2" fill="#f1e05a" />
-    <text x="296" y="81" fill="#f0f6fc">JavaScript</text>
-    <text x="628" y="81" fill="#8b949e" text-anchor="end">18.33%</text>
-
-    <rect x="272" y="103" width="11" height="11" rx="2" fill="#3572a5" />
-    <text x="296" y="113" fill="#f0f6fc">Python</text>
-    <text x="628" y="113" fill="#8b949e" text-anchor="end">16.08%</text>
-
-    <rect x="272" y="135" width="11" height="11" rx="2" fill="#dea584" />
-    <text x="296" y="145" fill="#f0f6fc">Rust</text>
-    <text x="628" y="145" fill="#8b949e" text-anchor="end">14.03%</text>
-
-    <rect x="272" y="167" width="11" height="11" rx="2" fill="#f34b7d" />
-    <text x="296" y="177" fill="#f0f6fc">C++</text>
-    <text x="628" y="177" fill="#8b949e" text-anchor="end">9.42%</text>
-
-    <rect x="272" y="199" width="11" height="11" rx="2" fill="#8b949e" />
-    <text x="296" y="209" fill="#f0f6fc">Other</text>
-    <text x="628" y="209" fill="#8b949e" text-anchor="end">2.60%</text>
+  <g transform="translate(24 168)">
+    <rect width="12" height="12" rx="3" fill="#f34b7d" />
+    <text class="label" x="22" y="11">C++</text>
+    <text class="value" x="322" y="11" text-anchor="end">9.42%</text>
+  </g>
+  <g transform="translate(398 168)">
+    <rect width="12" height="12" rx="3" fill="#8b949e" />
+    <text class="label" x="22" y="11">Other</text>
+    <text class="value" x="338" y="11" text-anchor="end">2.60%</text>
   </g>
 </svg>
