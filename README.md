@@ -10,6 +10,8 @@
 
 I build stuff, mostly with TypeScript, Python, C++, and Rust.
 
+**Currently building** Exedra, and finishing my CS degree at CCNY.
+
 ### Connect
 
 <a href="https://www.linkedin.com/in/adilaahmed/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FFFFFF" alt="LinkedIn" height="28" /></a>
