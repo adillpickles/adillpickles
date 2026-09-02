@@ -15,6 +15,7 @@ I build stuff, mostly with TypeScript, Python, C++, and Rust.
 ### Connect
 
 <a href="https://www.linkedin.com/in/adilaahmed/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FFFFFF" alt="LinkedIn" height="28" /></a>
+<a href="mailto:adilahbabahmed@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=FFFFFF" alt="Email" height="28" /></a>
 
 ### Top Languages
 
