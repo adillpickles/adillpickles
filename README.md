@@ -72,11 +72,3 @@ I build stuff, mostly with TypeScript, Python, C++, and Rust.
   <img src="https://img.shields.io/badge/NumPy-24292F?style=flat-square&amp;logo=numpy&amp;logoColor=4DABCF" alt="NumPy" />
   <img src="https://img.shields.io/badge/scikit--learn-24292F?style=flat-square&amp;logo=scikitlearn&amp;logoColor=F7931E" alt="scikit-learn" />
 </p>
-
-### GitHub Activity
-
-<p align="center">
-  <img src="./assets/github-activity.svg" width="760" alt="GitHub activity summary for the last 12 months" />
-</p>
-
-<p align="center"><sub>Last 12 months</sub></p>
